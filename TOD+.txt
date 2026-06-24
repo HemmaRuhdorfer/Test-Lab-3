@@ -1,14 +1,12 @@
 TOD+
 
-Test für normales Item vor Ablaufdatum erstellen
+DONE Test für normales Item vor Ablaufdatum erstellen
 
-Test für normales Item nach Ablaufdatum erstellen
+DONE Test für normales Item nach Ablaufdatum erstellen
 
-Test für minimale Qualität (0) erstellen
+DONE Test für minimale Qualität (0) erstellen
 
-Test für Aged Brie vor Ablaufdatum erstellen
-
-Test für Aged Brie nach Ablaufdatum erstellen
+DONE Test für Aged Brie  erstellen
 
 Test für maximale Qualität (50) bei Aged Brie erstellen
 
