@@ -85,4 +85,15 @@ it("backstage pass increases quality by 3 when 5 days or less remain", function(
     expect(items[0].quality).toEqual(23);
 
 });
+
+it("backstage pass quality drops to 0 after concert", function() {
+
+    items = [new Item("Backstage passes to a TAFKAL80ETC concert",0,20)];
+
+    update_quality();
+
+    expect(items[0].sell_in).toEqual(-1);
+    expect(items[0].quality).toEqual(0);
+
+});
 });
