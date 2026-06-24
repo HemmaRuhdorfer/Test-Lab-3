@@ -117,4 +117,14 @@ it("Sulfuras never has to be sold or decreases in quality", function() {
     expect(items[0].quality).toEqual(80);
 
 });
+it("conjured items degrade twice as fast as normal items", function() {
+
+    items = [new Item("Conjured Mana Cake", 3, 6)];
+
+    update_quality();
+
+    expect(items[0].sell_in).toEqual(2);
+    expect(items[0].quality).toEqual(4);
+
+});
 });
