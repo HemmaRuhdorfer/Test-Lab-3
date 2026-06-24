@@ -96,4 +96,15 @@ it("backstage pass quality drops to 0 after concert", function() {
     expect(items[0].quality).toEqual(0);
 
 });
+
+it("backstage pass quality does not exceed 50", function() {
+
+    items = [new Item("Backstage passes to a TAFKAL80ETC concert",5,49)];
+
+    update_quality();
+
+    expect(items[0].sell_in).toEqual(4);
+    expect(items[0].quality).toEqual(50);
+});
+
 });
