@@ -16,8 +16,8 @@ DONE Test für Backstage Pass (<=10 Tage) erstellen
 
 DONE Test für Backstage Pass (<=5 Tage) erstellen
 
-Test für Backstage Pass nach Konzert erstellen
+SONE Test für Backstage Pass nach Konzert erstellen
 
-Test für maximale Qualität (50) bei Backstage Passes erstellen
+DONE Test für maximale Qualität (50) bei Backstage Passes erstellen
 
-Test für Sulfuras erstellen
+DONE Test für Sulfuras erstellen
