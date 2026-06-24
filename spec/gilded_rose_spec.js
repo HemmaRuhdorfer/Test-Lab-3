@@ -31,4 +31,15 @@ expect(items[0].sell_in).toEqual(9);
 expect(items[0].quality).toEqual(0);    
 });
 
+it("Aged Brie increases in quality the older it gets", function() {
+
+items = [new Item("Aged Brie", 2, 0)];
+
+update_quality();
+
+expect(items[0].sell_in).toEqual(1);
+expect(items[0].quality).toEqual(1);
+
+});
+
 });
