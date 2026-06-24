@@ -19,6 +19,7 @@ update_quality();
 
 expect(items[0].sell_in).toEqual(-1);
 expect(items[0].quality).toEqual(18);
+<<<<<<< HEAD
 
 });
 
@@ -30,6 +31,9 @@ update_quality();
 
 expect(items[0].sell_in).toEqual(9);
 expect(items[0].quality).toEqual(0);    
+=======
+7777
+>>>>>>> origin/main
 
 });
 
